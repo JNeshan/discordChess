@@ -1,0 +1,3 @@
+[submodule "ChessFramework"]
+	path = ChessFramework
+	url = git@github.com:JNeshan/ChessFramework.git
