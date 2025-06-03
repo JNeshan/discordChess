@@ -1,9 +1,9 @@
 from setuptools import setup
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 
-cppSources = ["chessState.cpp", 
-              "bindings.cpp",
-              "transpositionTable.cpp"]
+cppSources = ["./ChessFramework/chessState.cpp", 
+              "./ChessFramework/bindings.cpp",
+              "./ChessFramework/transpositionTable.cpp"]
 
 ext_modules = [
   Pybind11Extension(
